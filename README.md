@@ -26,7 +26,7 @@
 
   -  将 RN 嵌入原生模块
 
-  - RN  $\rightarrow$  原生( Support promise )
+  - RN  ->  原生( Support promise )
 
     - getAddress
 
@@ -104,7 +104,7 @@
 
       - 读取 Smart Contract
 
-  - 原生 $\rightarrow$ RN
+  - 原生 -> RN
 
     -  sendWalletChangedEvent
 
@@ -124,25 +124,28 @@
 
       
 
-- **Wallet ( [Web3Java](https://github.com/web3j/web3j) ) **
+- **Wallet ( [Web3Java](https://github.com/web3j/web3j) )**
 
   - 创建钱包
 
   - 导入钱包
 
-  - - <details><summary>Example</summary>
+  - <details><summary>Example</summary>
       <p>
         <img src="./image/12.png" height=500/>
       </p>
       </details>
 
   - 保存用户私钥，在本地，不可被破解
-
-    - <img src="./image/4.png" height=500/>
+      <details><summary>Example</summary>
+      <p>
+        <img src="./image/4.png" height=500/>
+      </p>
+      </details>
 
   - 支持多国货币 （[CoinMarketCap](https://coinmarketcap.com/api/documentation/v1/)）
 
-    - <details><summary>Example</summary>
+    <details><summary>Example</summary>
       <p>
         <img src="./image/13.png" height=500/>
       </p>
